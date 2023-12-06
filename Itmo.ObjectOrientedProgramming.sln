@@ -35,17 +35,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FB6CE51D-475A-4A71-8E70-3964C09D9371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Application.Domain", "src\Lab5\Itmo.ObjectOrientedProgramming.Application.Domain\Itmo.ObjectOrientedProgramming.Application.Domain.csproj", "{D32785E3-9612-443E-8756-00E597D52673}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Lab5.Application.Domain", "src\Lab5\Itmo.ObjectOrientedProgramming.Lab5.Application.Domain\Itmo.ObjectOrientedProgramming.Lab5.Application.Domain.csproj", "{D32785E3-9612-443E-8756-00E597D52673}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{176B25E6-853D-4424-828A-A1F91DF93312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Presentation.Console", "src\Lab5\Itmo.ObjectOrientedProgramming.Presentation.Console\Itmo.ObjectOrientedProgramming.Presentation.Console.csproj", "{C6E4178C-1D24-42EA-B472-0E665C9BBBB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Lab5.Presentation.Console", "src\Lab5\Itmo.ObjectOrientedProgramming.Lab5.Presentation.Console\Itmo.ObjectOrientedProgramming.Lab5.Presentation.Console.csproj", "{C6E4178C-1D24-42EA-B472-0E665C9BBBB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Infrastructure.DataAccess", "src\Lab5\Itmo.ObjectOrientedProgramming.Infrastructure.DataAccess\Itmo.ObjectOrientedProgramming.Infrastructure.DataAccess.csproj", "{FC0690AC-4745-4C4B-BCA9-D9E647DA2673}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Lab5.Infrastructure.DataAccess", "src\Lab5\Itmo.ObjectOrientedProgramming.Lab5.Infrastructure.DataAccess\Itmo.ObjectOrientedProgramming.Lab5.Infrastructure.DataAccess.csproj", "{FC0690AC-4745-4C4B-BCA9-D9E647DA2673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Application", "src\Lab5\Itmo.ObjectOrientedProgramming.Application\Itmo.ObjectOrientedProgramming.Application.csproj", "{55F3262F-B0BF-48EC-90D0-510665302411}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Lab5.Application", "src\Lab5\Itmo.ObjectOrientedProgramming.Lab5.Application\Itmo.ObjectOrientedProgramming.Lab5.Application.csproj", "{55F3262F-B0BF-48EC-90D0-510665302411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Application.Abstractions", "src\Lab5\Itmo.ObjectOrientedProgramming.Application.Abstractions\Itmo.ObjectOrientedProgramming.Application.Abstractions.csproj", "{516B1EA0-408F-452A-8636-2078DB42DF13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions", "src\Lab5\Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions\Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions.csproj", "{516B1EA0-408F-452A-8636-2078DB42DF13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
