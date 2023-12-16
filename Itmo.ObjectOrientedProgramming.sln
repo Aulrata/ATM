@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions", "src\Lab5\Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions\Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions.csproj", "{516B1EA0-408F-452A-8636-2078DB42DF13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts", "src\Lab5\Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts\Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts.csproj", "{CD926A85-61C9-40C4-9FCB-2D6F5F3DD185}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,7 @@ Global
 		{FC0690AC-4745-4C4B-BCA9-D9E647DA2673} = {FB6CE51D-475A-4A71-8E70-3964C09D9371}
 		{55F3262F-B0BF-48EC-90D0-510665302411} = {3A5CBA33-1B48-4741-A944-8D0CD690DA1A}
 		{516B1EA0-408F-452A-8636-2078DB42DF13} = {3A5CBA33-1B48-4741-A944-8D0CD690DA1A}
+		{CD926A85-61C9-40C4-9FCB-2D6F5F3DD185} = {3A5CBA33-1B48-4741-A944-8D0CD690DA1A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EABA4888-E6C1-4ACC-856E-FBD34CEA3EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -129,5 +132,9 @@ Global
 		{516B1EA0-408F-452A-8636-2078DB42DF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516B1EA0-408F-452A-8636-2078DB42DF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516B1EA0-408F-452A-8636-2078DB42DF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD926A85-61C9-40C4-9FCB-2D6F5F3DD185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD926A85-61C9-40C4-9FCB-2D6F5F3DD185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD926A85-61C9-40C4-9FCB-2D6F5F3DD185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD926A85-61C9-40C4-9FCB-2D6F5F3DD185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
