@@ -5,10 +5,11 @@ namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts.Users;
 
 public interface ICustomerService
 {
-    LoginResult Login(string login, string password);
-    void CreateAccount();
-    void PutMoneyIntoAccount(long accountId);
-    void WithdrawMoneyFromAccount(long accountId);
+    UserResult Login(string login, string password);
+    UserResult CreateAccount();
+    UserResult PutMoneyIntoAccount(decimal money);
+    UserResult WithdrawMoneyFromAccount(decimal money);
     IEnumerable<Transaction> ShowTransactionsHistory();
     IEnumerable<Account> ShowAllAccount();
+    UserResult SetCurrentAccount(long accountId);
 }
