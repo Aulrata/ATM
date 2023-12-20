@@ -1,8 +1,8 @@
 ﻿namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Domain.Operations;
 
-public class Transactions
+public class Transaction
 {
-    public Transactions(long id, long userId, long accountId, decimal money, Operation operations)
+    public Transaction(long id, long userId, long accountId, decimal money, Operation operations)
     {
         Id = id;
         UserId = userId;
