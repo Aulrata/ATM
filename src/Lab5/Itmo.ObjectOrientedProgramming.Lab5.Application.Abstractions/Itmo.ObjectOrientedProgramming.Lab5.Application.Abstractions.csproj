@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Itmo.ObjectOrientedProgramming.Lab5.Application.Domain\Itmo.ObjectOrientedProgramming.Lab5.Application.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

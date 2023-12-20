@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts\Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts.csproj" />
+      <ProjectReference Include="..\Itmo.ObjectOrientedProgramming.Lab5.Infrastructure.DataAccess\Itmo.ObjectOrientedProgramming.Lab5.Infrastructure.DataAccess.csproj" />
+    </ItemGroup>
+
 </Project>
