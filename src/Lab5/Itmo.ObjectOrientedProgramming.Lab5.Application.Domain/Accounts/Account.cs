@@ -1,3 +1,13 @@
 ﻿namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Domain.Accounts;
 
-public record Account(long Id, decimal Balance);
+public class Account
+{
+    public Account(long id, decimal balance)
+    {
+        Id = id;
+        Balance = balance;
+    }
+
+    public long Id { get; init; }
+    public decimal Balance { get; set; }
+}
