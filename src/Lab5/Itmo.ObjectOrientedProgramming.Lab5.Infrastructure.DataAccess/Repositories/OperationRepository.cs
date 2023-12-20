@@ -5,12 +5,12 @@ namespace Itmo.ObjectOrientedProgramming.Lab5.Infrastructure.DataAccess.Reposito
 
 public class OperationRepository : IOperationRepository
 {
-    public void Create(Operation operation)
+    public void Create(Transactions transactions)
     {
         throw new NotImplementedException();
     }
 
-    public IEnumerable<Operation> GetAllOperationsByUser(long id)
+    public IEnumerable<Transactions> GetAllOperationsByUser(long id)
     {
         throw new NotImplementedException();
     }

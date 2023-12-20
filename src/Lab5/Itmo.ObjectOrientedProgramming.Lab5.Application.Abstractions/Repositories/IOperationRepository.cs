@@ -4,6 +4,6 @@ namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions.Repositor
 
 public interface IOperationRepository
 {
-    void Create(Operation operation);
-    IEnumerable<Operation> GetAllOperationsByUser(long id);
+    void Create(Transactions transactions);
+    IEnumerable<Transactions> GetAllOperationsByUser(long id);
 }
