@@ -5,5 +5,5 @@ namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions.Repositor
 public interface IUserRepository
 {
     void Create(User user);
-    User FindByLogin(string login);
+    User? GetByLogin(string login);
 }

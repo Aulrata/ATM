@@ -6,5 +6,5 @@ public interface IAccountRepository
 {
     void Create(Account account);
     IEnumerable<Account> GetAllAccountsByUser(long userId);
-    Account GetAccountById(long accountId);
+    Account? GetAccountById(long accountId);
 }
