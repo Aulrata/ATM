@@ -11,4 +11,9 @@
       <ProjectReference Include="..\Itmo.ObjectOrientedProgramming.Lab5.Application.Domain\Itmo.ObjectOrientedProgramming.Lab5.Application.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Itmo.Dev.Platform.Postgres" />
+      <PackageReference Include="Npgsql" />
+    </ItemGroup>
+
 </Project>
