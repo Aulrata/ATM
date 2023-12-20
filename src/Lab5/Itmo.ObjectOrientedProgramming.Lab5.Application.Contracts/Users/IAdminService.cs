@@ -1,4 +1,4 @@
-﻿using Itmo.ObjectOrientedProgramming.Lab5.Application.Domain.Operations;
+﻿using Itmo.ObjectOrientedProgramming.Lab5.Application.Domain.Transactions;
 
 namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts.Users;
 

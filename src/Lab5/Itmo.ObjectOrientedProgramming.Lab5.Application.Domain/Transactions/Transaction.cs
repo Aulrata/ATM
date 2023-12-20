@@ -1,4 +1,4 @@
-﻿namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Domain.Operations;
+﻿namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Domain.Transactions;
 
 public class Transaction
 {
