@@ -11,7 +11,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Itmo.Dev.Platform.Postgres" />
       <PackageReference Include="Npgsql" />
     </ItemGroup>
 

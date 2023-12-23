@@ -39,6 +39,7 @@ public class CustomerService : ICustomerService
         if (user.Password != password) return UserResult.WrongPassword;
 
         _currentUserManager.User = user;
+        SetDefaultAccount();
         return UserResult.Success;
     }
 
@@ -108,5 +109,13 @@ public class CustomerService : ICustomerService
     public decimal ShowBalance()
     {
         return _currentAccountManager.Account?.Balance ?? -1;
+    }
+
+    private void SetDefaultAccount()
+    {
+        if (_currentUserManager.User is null) return;
+        Account? account = _accountRepository.GetAllAccountsByUser(_currentUserManager.User.Id).FirstOrDefault();
+        if (account is null) CreateAccount();
+        _currentAccountManager.Account = account;
     }
 }
