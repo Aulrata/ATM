@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions\Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions.csproj" />
+      <ProjectReference Include="..\Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts\Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts.csproj" />
+      <ProjectReference Include="..\Itmo.ObjectOrientedProgramming.Lab5.Application\Itmo.ObjectOrientedProgramming.Lab5.Application.csproj" />
+      <ProjectReference Include="..\Itmo.ObjectOrientedProgramming.Lab5.Infrastructure.DataAccess\Itmo.ObjectOrientedProgramming.Lab5.Infrastructure.DataAccess.csproj" />
+      <ProjectReference Include="..\Itmo.ObjectOrientedProgramming.Lab5.Presentation.Console\Itmo.ObjectOrientedProgramming.Lab5.Presentation.Console.csproj" />
+    </ItemGroup>
+
+</Project>
