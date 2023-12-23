@@ -4,7 +4,7 @@ namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Contracts.Users;
 
 public interface IAdminService
 {
-    UserResult Login(string password);
-    UserResult CreateCustomer(string name, string lastName, string login, string password);
-    IEnumerable<Transaction> ShowAllTransactionsByUser(long userId);
+    UserResult Login(string? password);
+    UserResult CreateCustomer(string? login, string? password);
+    IEnumerable<Transaction>? ShowAllTransactionsByUser(int userId);
 }

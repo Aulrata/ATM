@@ -5,6 +5,7 @@ namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions.Repositor
 public interface IAccountRepository
 {
     void Create(Account account);
-    IEnumerable<Account> GetAllAccountsByUser(long userId);
-    Account? GetAccountById(long accountId);
+    IEnumerable<Account> GetAllAccountsByUser(int userId);
+    Account? GetAccountById(int accountId);
+    void UpdateBalance(int accountId, decimal newBalance);
 }

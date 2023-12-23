@@ -5,5 +5,5 @@ namespace Itmo.ObjectOrientedProgramming.Lab5.Application.Abstractions.Repositor
 public interface ITransactionRepository
 {
     void Create(Transaction transaction);
-    IEnumerable<Transaction> GetAllTransactionsByUser(long id);
+    IEnumerable<Transaction>? GetAllTransactionsByUser(int id);
 }
