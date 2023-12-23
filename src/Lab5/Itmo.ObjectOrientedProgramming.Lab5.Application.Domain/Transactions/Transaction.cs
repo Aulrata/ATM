@@ -2,7 +2,15 @@
 
 public class Transaction
 {
-    public Transaction(long id, long userId, long accountId, decimal money, Operation operations)
+    public Transaction(int userId, int accountId, decimal money, Operation operations)
+    {
+        UserId = userId;
+        AccountId = accountId;
+        Money = money;
+        Operations = operations;
+    }
+
+    public Transaction(int id, int userId, int accountId, decimal money, Operation operations)
     {
         Id = id;
         UserId = userId;
@@ -11,9 +19,9 @@ public class Transaction
         Operations = operations;
     }
 
-    public long Id { get; init; }
-    public long UserId { get; set; }
-    public long AccountId { get; set; }
+    public int Id { get; set; }
+    public int UserId { get; set; }
+    public int AccountId { get; set; }
     public decimal Money { get; set; }
     public Operation Operations { get; set; }
 }

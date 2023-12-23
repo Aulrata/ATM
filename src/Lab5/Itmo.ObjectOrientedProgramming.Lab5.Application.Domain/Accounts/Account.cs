@@ -2,6 +2,20 @@
 
 public class Account
 {
-    public long Id { get; init; }
-    public decimal Balance { get; set; } = 0;
+    public Account(int id, int userId, decimal balance)
+    {
+        Id = id;
+        UserId = userId;
+        Balance = balance;
+    }
+
+    public Account(int userId, decimal balance)
+    {
+        UserId = userId;
+        Balance = balance;
+    }
+
+    public int Id { get; set; }
+    public int UserId { get; set; }
+    public decimal Balance { get; set; }
 }
