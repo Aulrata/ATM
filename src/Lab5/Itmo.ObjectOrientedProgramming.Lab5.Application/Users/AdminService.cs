@@ -21,7 +21,7 @@ public class AdminService : IAdminService
         _transactionRepository = transactionRepository;
     }
 
-    public UserResult Login(string password)
+    public UserResult Login(string? password)
     {
         User? user = _userRepository.GetByLogin("root");
 
@@ -33,18 +33,19 @@ public class AdminService : IAdminService
         return UserResult.Success;
     }
 
-    public UserResult CreateCustomer(string name, string lastName, string login, string password)
+    public UserResult CreateCustomer(string? login, string? password)
     {
+        if (login is null || password is null) return UserResult.NotFound;
         User? user = _userRepository.GetByLogin(login);
 
         if (user is not null) return UserResult.AlreadyExist;
 
-        user = new User(name, lastName, UserRole.Customer, login, password);
+        user = new User(0, login, password, UserRole.Customer);
         _userRepository.Create(user);
         return UserResult.Success;
     }
 
-    public IEnumerable<Transaction> ShowAllTransactionsByUser(long userId)
+    public IEnumerable<Transaction>? ShowAllTransactionsByUser(int userId)
     {
         return _transactionRepository.GetAllTransactionsByUser(userId);
     }
