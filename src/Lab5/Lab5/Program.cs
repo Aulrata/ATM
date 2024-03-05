@@ -24,7 +24,7 @@ ICustomerService customerService = new CustomerService(
     accountRepository,
     transactionRepository);
 
-IScenario scenarioChain = new LoginAdminScenario("admin");
+var scenarioChain = new LoginAdminScenario("admin");
 scenarioChain
     .SetNext(new LoginCustomerScenario("customer")
     .SetNext(new PutMoneyScenario("put")

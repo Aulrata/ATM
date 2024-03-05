@@ -23,7 +23,7 @@ public class OperationWithBalances
         var currentAccountManager = new CurrentAccountManager();
         var account = new Account(1, 2, 100);
         currentAccountManager.Account = account;
-        ICustomerService customerService = new CustomerService(
+        var customerService = new CustomerService(
             currentUserManager,
             currentAccountManager,
             userRepository,
@@ -47,7 +47,7 @@ public class OperationWithBalances
         var currentAccountManager = new CurrentAccountManager();
         var account = new Account(1, 2, 100);
         currentAccountManager.Account = account;
-        ICustomerService customerService = new CustomerService(
+        var customerService = new CustomerService(
             currentUserManager,
             currentAccountManager,
             userRepository,
@@ -71,7 +71,7 @@ public class OperationWithBalances
         var currentAccountManager = new CurrentAccountManager();
         var account = new Account(1, 2, 100);
         currentAccountManager.Account = account;
-        ICustomerService customerService = new CustomerService(
+        var customerService = new CustomerService(
             currentUserManager,
             currentAccountManager,
             userRepository,
